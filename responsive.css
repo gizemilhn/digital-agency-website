@@ -1,0 +1,392 @@
+/* Genel Responsive Ayarlar */
+@media (max-width: 1200px) {
+    .header-section {
+        padding: 0 50px;
+    }
+
+    .hero-section {
+        padding: 50px;
+    }
+
+    .hero-heading {
+        font-size: 80px;
+    }
+
+    .hero-p {
+        font-size: 16px;
+    }
+
+    .hero-btn1, .hero-btn2 {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin: 15px;
+    }
+
+    .hero-img {
+        max-width: 400px;
+    }
+
+    .row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-hero {
+        margin: 10px 0;
+    }
+
+
+
+    .about-row {
+        width: 800px;
+    }
+
+    .more-heading, .portfolio-heading, .team-heading h1, .recent-heading h1, .end-header h1 {
+        font-size: 60px;
+    }
+
+    .circle-button-more, .circle-button-team {
+        width: 100px;
+        height: 100px;
+        font-size: 28px;
+        margin: 0;
+    }
+    .more-section {
+        padding: 50px;
+    }
+
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .client-section, .team-section, .recent-section, .end-section {
+        padding: 50px;
+    }
+
+    .feedback {
+        font-size: 36px;
+    }
+
+    .client-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-card {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .recent-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .recent-card {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-section {
+        padding: 0 20px;
+    } 
+    .menu-toggle {
+        display: none;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    @media (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+        }
+    
+        .menu-toggle {
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+    
+        .nav {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+            background-color: #fbf9f8;
+        }
+    
+        .nav.active {
+            display: flex;
+        }
+    
+        .nav-item {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .nav-btn{
+            align-self: center;
+            margin: 20px;
+        }
+    }
+        
+    .hero-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .col {
+        margin: 20px 0;
+    }
+
+    .hero-heading {
+        font-size: 60px;
+    }
+
+    .hero-p {
+        font-size: 14px;
+    }
+
+    .hero-btn1, .hero-btn2 {
+        font-size: 12px;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .hero-img {
+        max-width: 300px;
+    }
+
+    .row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-hero {
+        margin: 10px 0;
+    }
+    .col {
+        margin: 20px 0;
+    }
+
+    .hero-heading {
+        font-size: 60px;
+    }
+
+    .hero-p {
+        font-size: 14px;
+    }
+
+    .hero-btn1, .hero-btn2 {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-hero {
+        margin: 10px 0;
+    }
+
+    .about-section {
+        height: auto;
+    }
+
+    .about-heading {
+        font-size: 48px;
+    }
+
+    .about-row {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .col-about {
+        margin: 10px 0;
+        height: auto;
+        padding: 20px;
+    }
+
+    .more-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    .more-heading {
+        font-size: 48px;
+    }
+    .circle-button-more {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .portfolio-section {
+        padding: 20px;
+    }
+
+    .portfolio-heading {
+        font-size: 48px;
+    }
+
+    .portfolio-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .client-section {
+        padding: 20px;
+    }
+
+    .client-header {
+        font-size: 24px;
+    }
+
+    .feedback {
+        font-size: 24px;
+    }
+
+    .client-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team-section {
+        padding: 20px;
+    }
+
+    .team-heading h1 {
+        font-size: 48px;
+    }
+
+    .team-cards {
+        flex-direction: column;
+    }
+
+    .team-card {
+        width: 100%;
+    }
+
+    .recent-section {
+        padding: 20px;
+    }
+
+    .recent-heading h1 {
+        font-size: 48px;
+    }
+
+
+    .recent-card {
+        width: 100%;
+    }
+
+    .end-section {
+        padding: 20px;
+    }
+
+    .end-header h1 {
+        font-size: 48px;
+    }
+
+    .mini-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-end {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-heading {
+        font-size: 40px;
+    }
+
+    .hero-p {
+        font-size: 12px;
+    }
+
+    .hero-btn1, .hero-btn2 {
+        font-size: 10px;
+        padding: 8px;
+        margin: 15px;
+    }
+
+    .hero-img {
+        max-width: 250px;
+    }
+    .about-heading, .more-heading, .portfolio-heading, .team-heading h1, .recent-heading h1, .end-header h1 {
+        font-size: 36px;
+    }
+
+    .circle-button-more, .circle-button-team {
+        width: 50px;
+        height:50px;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .feedback {
+        font-size: 18px;
+    }
+
+    .client-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .team-card-body h1 {
+        font-size: 16px;
+    }
+
+    .team-card-body p {
+        font-size: 10px;
+    }
+
+    .card-text {
+        font-size: 18px;
+    }
+
+    .card-subtitle {
+        font-size: 6px;
+    }
+
+    .circle-button-r {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    .end-btn {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
